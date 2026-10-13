@@ -4,6 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
+print("Hello Junaid")
 return jsonify(status="ok")
 
 if __name__ == "__main__":
